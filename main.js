@@ -6,7 +6,8 @@ require.config({
         'app':'../app',
         'angular': 'angular/angular',
         'angularAMD': 'angular-amd/angularAMD',
-        'angular-route': 'angular-route/angular-route'
+        'angular-route': 'angular-route/angular-route',
+        'jquery': 'jquery/dist/jquery.min'
     },
 
     shim: { 
