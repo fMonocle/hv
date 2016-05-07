@@ -1,0 +1,22 @@
+#hvServicios .hvServiciosP{
+	word-wrap: break-word;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+#hvServicios .rightText{
+	text-align: -webkit-right; 
+}
+
+#hvServicios .leftText{
+	text-align: -webkit-left; 
+}
+#hvServicios .hvH1{
+	color: #363636;
+}
+#hvServicios .hvH4{
+	color: #363636;
+}
+
+
+

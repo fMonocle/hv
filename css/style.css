@@ -425,7 +425,8 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 
 /*-- Features --*/
 .features {
-	background-color: #f5f5f5;
+	background-color: #FFFFFF;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;*/
 }
 .features h2, .features h3 {
 	font-size: 30px;
@@ -1013,7 +1014,7 @@ figure.effect-bubba:hover h4 {
 	width: 100px;
 }
 .stats-img {
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .stats-grid {
 	font-size: 35px;
@@ -1436,6 +1437,7 @@ a.mail:hover {
 	}
 	.features {
 		padding-bottom: 50px;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 	}
 	.feature1 {
 		margin-bottom: 15px;
