@@ -1,22 +1,144 @@
+/**SERVICIOS**/
 #hvServicios .hvServiciosP{
 	word-wrap: break-word;
 	font-size: 12px;
 	font-weight: 100;
 }
-
 #hvServicios .rightText{
 	text-align: -webkit-right; 
 }
-
 #hvServicios .leftText{
 	text-align: -webkit-left; 
 }
 #hvServicios .hvH1{
-	color: #363636;
+	color: rgba(54, 54, 54, 0.51);
+	font-weight:600;
 }
 #hvServicios .hvH4{
-	color: #363636;
+	color: rgba(54, 54, 54, 0.51);
+}
+/**SERVICIOS**/
+
+/**TECNOLOGÍAS**/
+#hvTecno .hvH1{
+	font-weight:100;
+	color: rgba(54, 54, 54, 0.51);
+}
+#hvTecno  .imgList {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+	text-align:center;
+	padding-top:5%;
+    list-style-type: none;
+}
+#hvTecno  .imgList ul {
+	display: inline-block;
+}
+
+#hvTecno  .imgList li{
+	display: block;
+    float: left;
+    text-align: center;
+    padding: 2%;
+
+}
+#hvTecno  .imgList li img{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 70%;
+}
+
+/**TECNOLOGÍAS**/
+
+/**CONTACTO**/
+#hvContacto .hvH1{
+	color: rgba(54, 54, 54, 0.51);
+	font-weight:200;
+}
+
+#hvContacto .leftText{
+	text-align: -webkit-left; 
+}
+#hvContacto .hvUnderline{
+    height: 1px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgba(21, 23, 24, 0.41);
+    border-radius: 20px;
 }
 
 
+	/*Formulario*/
+#hvContactForm .hvUnderline{
+    height: 1px;
+    width: 15%;
+    float: left;
+    background-color: rgba(21, 23, 24, 0.41);
+    border-radius: 20px;
+}
+#hvContactForm label{
+	margin-top:4%;
+}
+#hvContactForm input, #hvContactForm textarea{
+	border-radius: 0px;
+}
+#hvContactForm .hvSubmit{
+	margin: 1%;
+    margin-left: 0;
+    background: white;
+    border: 1px solid #ccc;
+}
+#hvContactForm .hvH1{
+	color: rgba(54, 54, 54, 0.51);
+	font-weight:200;
+}
+#hvContactForm .hvH4{
+	color: #000000;
+    font-weight: 200;
+}
+#hvContactForm .rightText{
+	text-align: -webkit-right; 
+}
+#hvContactForm .leftText{
+	text-align: -webkit-left; 
+}
+#hvContactForm .hvLeft{
+	float: left; 
+}
+	/*Formulario*/
 
+	/*Info de contacto*/
+#hvContactInfo .hvUnderline{
+    height: 1px;
+    width: 15%;
+    float: left;
+    background-color: rgba(21, 23, 24, 0.41);
+    border-radius: 20px;
+}
+#hvContactInfo .hvServiciosP{
+	word-wrap: break-word;
+	font-size: 12px;
+	font-weight: 100;
+	line-height:220%;
+	padding-top: 10px;
+}
+#hvContactInfo .rightText{
+	text-align: -webkit-right; 
+}
+#hvContactInfo .leftText{
+	text-align: -webkit-left; 
+}
+#hvContactInfo .hvH1{
+	color: rgba(54, 54, 54, 0.51);
+	font-weight:600;
+}
+#hvContactInfo .hvH4{
+	color: #000000;
+    font-weight: 200;
+}
+	/*Info de contacto*/
+/**CONTACTO**/
