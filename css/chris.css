@@ -1,3 +1,30 @@
+/**HOME**/
+#hvTitle{
+	/*position: absolute*/;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+    /*line-height: 100vh;*/
+}
+#hvSubTitle{
+	color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#hvDivImg{
+	background: black;
+
+}
+#hvIndexBackground{
+    height: 100vh;
+    width: 100%;
+    opacity:0.4;
+}
+/**HOME**/
+
+
 /**SERVICIOS**/
 #hvServicios .hvServiciosP{
 	word-wrap: break-word;
@@ -24,6 +51,13 @@
 	font-weight:100;
 	color: rgba(54, 54, 54, 0.51);
 }
+#hvTecno #casosExito{
+	width:80%;
+	margin: 0 auto;
+}
+#hvTecno #casosExito li img{
+	padding: 14px 30px;
+}
 #hvTecno  .imgList {
 	margin: 0;
     padding: 0;
@@ -31,6 +65,7 @@
 	text-align:center;
 	padding-top:5%;
     list-style-type: none;
+	
 }
 #hvTecno  .imgList ul {
 	display: inline-block;
@@ -41,7 +76,7 @@
     float: left;
     text-align: center;
     padding: 2%;
-
+   
 }
 #hvTecno  .imgList li img{
 	display: block;
@@ -51,7 +86,30 @@
     text-decoration: none;
     width: 70%;
 }
+#hvTecno .hvDestacado{
+	/*position: absolute*/;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+	margin-top:15px;
+    text-transform: uppercase;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+#hvTecno .hvMinDestacado{
+	color: white;
+    font-weight: 600;
+    margin-top: 20px;
+	line-height: 10px;	
+	text-transform: uppercase;
 
+}
+#hvTecno .hvWrapDest{
+    float: left;
+    padding: 10%;
+    padding-top: 0px;
+}
 /**TECNOLOGÍAS**/
 
 /**CONTACTO**/
@@ -70,7 +128,9 @@
     background-color: rgba(21, 23, 24, 0.41);
     border-radius: 20px;
 }
-
+#hvContacto .hvSubCont{
+		margin-bottom: 5%;
+}
 
 	/*Formulario*/
 #hvContactForm .hvUnderline{
