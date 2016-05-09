@@ -11,6 +11,7 @@ body {
 	margin: 0;
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
+	color: #868686;
 }
 body a {
 	transition: 0.5s all;
@@ -195,7 +196,7 @@ ul#cross-effect {
 	position: absolute;
     top: 40%;
     margin: auto;
-    width: 100%;   
+    width: 100%;
 }
 #hvTitle{
 	/*position: absolute*/;
@@ -409,8 +410,9 @@ ul#cross-effect {
 
 h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h3, .team h3, .contact h3 {
 	font-size: 40px;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	margin: 50px auto 0;
+	color: #868686;
 }
 .about h3, .testimonial h3, .stats h3, .team h3, .contact h3 {
 	color: #FFF;
@@ -423,22 +425,28 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	border-radius: 20px;
 }
 
-/*-- Features --*/
-.features {
+/*-- nosotros --*/
+.nosotros {
 	background-color: #f5f5f5;
+	padding-top: 50px;
 }
-.features h2, .features h3 {
+
+.nosotros h1{
+	#868686
+}
+
+.nosotros h2, .nosotros h3 {
 	font-size: 30px;
 	line-height: 60px;
 }
-.features p {
+.nosotros p {
 	text-align: center;
-	color: #363636;
+	color: #868686;
 	font-size: 16px;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	padding: 20px 0;
 }
-.features span {
+.nosotros span {
 	color: #006DB7;
 }
 .feature1 {
@@ -446,19 +454,26 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	width: 33%;
 	float: left;
 }
-.features-icon {
+.nosotros-icon {
 	width: 30%;
-	float: left;
+	/*float: left;*/
+	margin: auto;
 }
-.features-icon img {
-	width: 90%;
+.nosotros-icon img {
+	width: 50%;
 }
-.features-info {
-	width: 70%;
-	float: left;
-	padding-left: 25px;
+.nosotros-info {
+	width: 84%;
+	/*float: left;
+	padding-left: 25px;*/
+	margin: auto;
 }
-.features-item:before {
+
+.nosotros-info h4{
+	margin-top: 30px;
+	font-weight: 600;
+}
+.nosotros-item:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -475,7 +490,7 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	display: block;
 	width: 0;
 }
-.features-item{
+.nosotros-item{
 	background: #FFF;
 	padding: 30px 20px 20px;
 	margin: 15px 0;
@@ -485,7 +500,7 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	-moz-transition: background .5s ease-in-out;
 	transition: background .5s ease-in-out;
 }
-.features-item h4{
+.nosotros-item h4{
 	font-size: 20px;
 	font-weight: 700;
 	color: #028fcc;
@@ -494,7 +509,7 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.features-item p {
+.nosotros-item p {
 	font-size: 14px;
 	margin: 10px 0;
 	padding: 10px 0;
@@ -504,39 +519,48 @@ h1, .about h3, .portfolio h3, .testimonial h3, .skills h3, .stats h3, .clients h
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.features-item:hover{
+.nosotros-item:hover{
 	background: rgba(2, 143, 204, 0.88);
 	-webkit-transition: background .2s ease-in-out;
 	-moz-transition: background .2s ease-in-out;
 	transition: background .2s ease-in-out;
 }
-.features-item:hover h4{
+.nosotros-item:hover h4{
 	color: #FFF;
 	transform: translate(0,-5px);
 	-webkit-transform: translate(0,-5px);
-	-o-transform: translate(0,-5px); 
+	-o-transform: translate(0,-5px);
 	-moz-transform: translate(0,-5px);
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.features-item:hover p{
+.nosotros-item:hover p{
 	color: #EEE;
 	transform: translate(0,-5px);
 	-webkit-transform: translate(0,-5px);
-	-o-transform: translate(0,-5px); 
+	-o-transform: translate(0,-5px);
 	-moz-transform: translate(0,-5px);
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.features-item:hover:before {
+.nosotros-item:hover:before {
 	border-color: #F5F5F5 #F5F5F5 #006db7 #006db7;
 	-webkit-transition: border-color .2s ease-in-out;
 	-moz-transition: border-color .2s ease-in-out;
 	transition: border-color .2s ease-in-out;
 }
-/*-- //Features --*/
+
+#wordNosotros{
+	font-weight: 800;
+	color: #868686;
+}
+
+.feature-grid{
+	    margin-top: 50px;
+}
+/*-- //nosotros --*/
 
 /*-- About --*/
 .about {
@@ -800,7 +824,7 @@ figure.effect-bubba figcaption::before {
 	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
 	-webkit-transform: scale(0,1);
-	-moz-transform: scale(0,1); 
+	-moz-transform: scale(0,1);
 	-o-transform: scale(0,1);
 	-ms-transform: scale(0,1);
 	transform: scale(0,1);
@@ -1263,12 +1287,12 @@ a.mail:hover {
 .slide {
 	/* The name of the animation */
 	animation-name: slide;
-	-webkit-animation-name: slide; 
+	-webkit-animation-name: slide;
 	/* The duration of the animation */
-	animation-duration: 1s; 
+	animation-duration: 1s;
 	-webkit-animation-duration: 1s;
 	/* Make the element visible */
-	visibility: visible; 
+	visibility: visible;
 }
 
 /* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
@@ -1286,7 +1310,7 @@ a.mail:hover {
 	0% {
 		opacity: 0;
 		-webkit-transform: translateY(70%);
-	} 
+	}
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0%);
@@ -1377,10 +1401,10 @@ a.mail:hover {
 	.slider-grid-text h5 {
 		font-size: 28px;
 	}
-	.features-item {
+	.nosotros-item {
 		padding: 30px 0 20px;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 0;
 	}
 	.about {
@@ -1408,7 +1432,7 @@ a.mail:hover {
 		width: 77%;
 		height: 24%;
 		border-radius: 30px;
-	}	
+	}
 	.newsletter .email {
 		padding: 5px 40px 5px 10px;
 		font-size: 13px;
@@ -1434,14 +1458,14 @@ a.mail:hover {
 		top: 10px;
 		font-size: 20px;
 	}
-	.features {
+	.nosotros {
 		padding-bottom: 50px;
 	}
 	.feature1 {
 		margin-bottom: 15px;
 		width: 50%;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 20px;
 	}
 	.about {
@@ -1549,10 +1573,10 @@ a.mail:hover {
 		margin-bottom: 0px;
 		width: 50%;
 	}
-	.features {
+	.nosotros {
 		padding-bottom: 50px;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 20px;
 	}
 	.about p {
@@ -1659,7 +1683,7 @@ a.mail:hover {
 		top: 26.5%;
 		left: 33%;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 25px;
 	}
 	.about {
@@ -1803,7 +1827,7 @@ a.mail:hover {
 		margin-left: 5px;
 	}
 	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-		width: 72%;	
+		width: 72%;
 	}
 	.navbar-inverse .navbar-brand {
 		left: -15px;
@@ -1823,13 +1847,13 @@ a.mail:hover {
 	.nav-diamond a {
 		margin: 0;
 	}
-	.features-item {
+	.nosotros-item {
 		padding: 30px 0 10px;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 0;
 	}
-	.features-item p {
+	.nosotros-item p {
 		font-size: 13px;
 	}
 	.about {
@@ -2054,14 +2078,21 @@ a.mail:hover {
 	.heading-underline {
 		width: 15%;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 20px;
 		line-height: 40px;
 	}
-	.features-icon img {
+	.nosotros-icon img {
 		padding-top: 15px;
 	}
-	.features-item h4 {
+	.nosotros-item h4 {
+		font-size: 18px;
+	}
+
+	.metodologias-icon img {
+		padding-top: 15px;
+	}
+	.metodologias-item h4 {
 		font-size: 18px;
 	}
 	.about {
@@ -2174,7 +2205,7 @@ a.mail:hover {
 		left: 15px;
 		top: 37px;
 	}
-	.features-item h4 {
+	.nosotros-item h4 {
 		font-size: 17px;
 	}
 	.tabs-style-bar nav ul li a span {
@@ -2217,10 +2248,10 @@ a.mail:hover {
 	.carousel-control {
 		top: 41.5%;
 	}
-	.features-item {
+	.nosotros-item {
 		padding: 40px 0 10px;
 	}
-	.features-item h4 {
+	.nosotros-item h4 {
 		font-size: 15px;
 	}
 	.about {
@@ -2241,7 +2272,7 @@ a.mail:hover {
 	}
 	.skills-numbers {
 		padding: 0;
-	}	
+	}
 	.stats .numscroller {
 		font-size: 30px;
 	}
@@ -2299,25 +2330,39 @@ a.mail:hover {
 		font-size: 30px;
 		margin: 30px auto 0;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 18px;
 	}
-	.features p {
+	.nosotros p {
 		font-size: 14px;
 	}
 	.feature1 {
 		width: 100%;
 	}
-	.features-icon img {
+	.nosotros-icon img {
 		padding-top: 0;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 20px;
 	}
-	.features-item {
+	.nosotros-item {
 		padding: 20px 0 10px;
 	}
-	.features-info {
+	.nosotros-info {
+		padding-left: 20px;
+		padding-top: 10px;
+	}
+
+	.metodologias-icon-icon img {
+		padding-top: 0;
+	}
+	.metodologias-info {
+		padding-left: 20px;
+	}
+	.metodologias-item {
+		padding: 20px 0 10px;
+	}
+	.metodologias-info {
 		padding-left: 20px;
 		padding-top: 10px;
 	}
@@ -2407,10 +2452,10 @@ a.mail:hover {
 	.slider-grid-bg {
 		left: 26.5%;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 16px;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 10px;
 	}
 	.about {
@@ -2458,13 +2503,13 @@ a.mail:hover {
 	.slider-grid-bg {
 		left: 25.5%;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 15px;
 	}
-	.features-item {
+	.nosotros-item {
 		padding: 20px 0 0px;
 	}
-	.features-info {
+	.nosotros-info {
 		padding-left: 5px;
 		padding-top: 5px;
 	}
@@ -2495,11 +2540,14 @@ a.mail:hover {
 	.slider-grid-bg {
 		left: 22%;
 	}
-	.features h2, .features h3 {
+	.nosotros h2, .nosotros h3 {
 		font-size: 17px;
 		line-height: 35px;
 	}
-	.features-icon img {
+	.nosotros-icon img {
+		padding-top: 16px;
+	}
+	.metodologias-icon img {
 		padding-top: 16px;
 	}
 	.about p {
@@ -2563,4 +2611,48 @@ a.mail:hover {
 	}
 }
 
+.parrafo{
+	margin: auto;
+	width: 75%;
+	margin-top: 40px;
+}
+
+/*****************METODOLOGIAS****************/
+#divMetodologias{
+	margin: auto;
+	float: none
+}
+.colMetodologias{
+	width: 10%;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+.metodologias-icon {
+	width: 100%;
+	background: #3F6F95;
+	color: white;
+	padding: 15px;
+	/*float: left;*/
+	margin: auto;
+
+}
+
+.metodologias-icon h4 {
+	font-size:12px;
+}
+.metodologias-icon img {
+	width: 50%;
+}
+.metodologias-info {
+	width: 84%;
+	/*float: left;
+	padding-left: 25px;*/
+	margin: auto;
+}
+
+.metodologias-info h4{
+	margin-top: 30px;
+	font-weight: 600;
+}
 /*-- //Responsive Code --*/
