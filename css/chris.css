@@ -67,6 +67,15 @@
 			padding-bottom: 30px;
 	}
 }
+@media screen and (max-width:736px) {
+	#hvServicios #colDos{
+		margin-top: 0px !important;
+		margin-bottom: 30px;
+	}
+	#hvServicios{
+			padding-bottom: 30px;
+	}
+}
 @media screen and (max-width:966px) {
 	#hvServicios .colTopPad {
 		padding-top: 0px;
@@ -122,12 +131,12 @@
 }
 #hvTecno .hvDestacado{
 	/*position: absolute*/;
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-    width: 100%;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	width: 100%;
 	margin-top:15px;
-    text-transform: uppercase;
+	text-transform: uppercase;
 	line-height: 10px;
 	text-transform: uppercase;
 }
@@ -144,6 +153,13 @@
     padding: 10%;
     padding-top: 0px;
 }
+@media screen and (max-width:736px) {
+	#tecnoBlack .stats-grid {
+	  width: 25%;
+	  float: left;
+	}
+}
+
 /**TECNOLOGÍAS**/
 
 /**CONTACTO**/
@@ -177,14 +193,20 @@
 #hvContactForm label{
 	margin-top:4%;
 }
-#hvContactForm input, #hvContactForm textarea{
+#hvContactForm input{
 	border-radius: 0px;
+	width: 100%;
+}
+#hvContactForm textarea{
+ border-radius: 0px;
 }
 #hvContactForm .hvSubmit{
 	margin: 1%;
     margin-left: 0;
     background: white;
     border: 1px solid #ccc;
+		width: 33%;
+		margin-bottom: 20px;
 }
 #hvContactForm .hvH1{
 	color: rgba(54, 54, 54, 0.51);
@@ -199,10 +221,22 @@
 }
 #hvContactForm .leftText{
 	text-align: -webkit-left;
+	padding-bottom: 30px;
 }
-#hvContactForm .hvLeft{
+#hvContactForm .hvLeft {
 	float: left;
 }
+#hvContactForm .hvLeft, input, textarea{
+	float: left;
+	width: 100%;
+}
+@media screen and (min-width: 768px) {
+	#hvContactForm .leftText {
+	    text-align: -webkit-left;
+			padding-bottom: 0px;
+	}
+}
+
 	/*Formulario*/
 
 	/*Info de contacto*/
@@ -233,6 +267,13 @@
 #hvContactInfo .hvH4{
 	color: #000000;
     font-weight: 200;
+}
+@media screen and (max-width: 991px)	{
+	#hvContactInfo .hvH4{
+		color: #000000;
+		font-weight: 200;
+		padding-top: 20px;
+	}
 }
 	/*Info de contacto*/
 /**CONTACTO**/

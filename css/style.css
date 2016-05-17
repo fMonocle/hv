@@ -1765,7 +1765,7 @@ a.mail:hover {
 		height: 570px;
 	}
 	.stats-grid {
-		width: 25%;
+		width: 100%;
 		float: left;
 	}
 	.team-grid {
@@ -2109,7 +2109,7 @@ a.mail:hover {
 		left: 18px;
 	}
 	.stats {
-		height: 530px;
+		height: 220px;
 	}
 	p.stats-info {
 		padding: 0;
@@ -2412,7 +2412,7 @@ a.mail:hover {
 		padding-top: 0;
 	}
 	.stats {
-		height: 500px;
+		height: 210px;
 	}
 	.stats-img img {
 		width: 60px;
