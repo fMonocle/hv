@@ -26,16 +26,23 @@
 
 
 /**SERVICIOS**/
+#hvServicios{
+		padding-bottom: 80px;
+}
 #hvServicios .hvServiciosP{
 	word-wrap: break-word;
 	font-size: 12px;
 	font-weight: 100;
 }
 #hvServicios .rightText{
-	text-align: -webkit-right; 
+	text-align: -webkit-right;
+	color: rgba(54, 54, 54, 0.64) !important;
+	padding-bottom: 10px;
 }
 #hvServicios .leftText{
-	text-align: -webkit-left; 
+	text-align: -webkit-left;
+	color: rgba(54, 54, 54, 0.64) !important;
+	padding-bottom: 10px;
 }
 #hvServicios .hvH1{
 	color: rgba(54, 54, 54, 0.51);
@@ -43,6 +50,33 @@
 }
 #hvServicios .hvH4{
 	color: rgba(54, 54, 54, 0.51);
+}
+#hvServicios .colTopPad{
+	padding-top: 30px;
+}
+#hvServicios .imgContLeft{
+	width: 80%;
+	float: left;
+}
+@media screen and (max-width:414px) {
+	#hvServicios #colDos{
+		margin-top: 0px !important;
+		margin-bottom: 30px;
+	}
+	#hvServicios{
+			padding-bottom: 30px;
+	}
+}
+@media screen and (max-width:966px) {
+	#hvServicios .colTopPad {
+		padding-top: 0px;
+	}
+	#hvServicios #colDos{
+		margin-top: 90px;
+	}
+	#hvServicios{
+			padding-bottom: 30px;
+	}
 }
 /**SERVICIOS**/
 
@@ -65,7 +99,7 @@
 	text-align:center;
 	padding-top:5%;
     list-style-type: none;
-	
+
 }
 #hvTecno  .imgList ul {
 	display: inline-block;
@@ -76,7 +110,7 @@
     float: left;
     text-align: center;
     padding: 2%;
-   
+
 }
 #hvTecno  .imgList li img{
 	display: block;
@@ -101,7 +135,7 @@
 	color: white;
     font-weight: 600;
     margin-top: 20px;
-	line-height: 10px;	
+	line-height: 10px;
 	text-transform: uppercase;
 
 }
@@ -119,7 +153,7 @@
 }
 
 #hvContacto .leftText{
-	text-align: -webkit-left; 
+	text-align: -webkit-left;
 }
 #hvContacto .hvUnderline{
     height: 1px;
@@ -161,13 +195,13 @@
     font-weight: 200;
 }
 #hvContactForm .rightText{
-	text-align: -webkit-right; 
+	text-align: -webkit-right;
 }
 #hvContactForm .leftText{
-	text-align: -webkit-left; 
+	text-align: -webkit-left;
 }
 #hvContactForm .hvLeft{
-	float: left; 
+	float: left;
 }
 	/*Formulario*/
 
@@ -187,10 +221,10 @@
 	padding-top: 10px;
 }
 #hvContactInfo .rightText{
-	text-align: -webkit-right; 
+	text-align: -webkit-right;
 }
 #hvContactInfo .leftText{
-	text-align: -webkit-left; 
+	text-align: -webkit-left;
 }
 #hvContactInfo .hvH1{
 	color: rgba(54, 54, 54, 0.51);

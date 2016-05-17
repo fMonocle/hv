@@ -1490,7 +1490,7 @@ a.mail:hover {
 		font-size: 18px;
 	}
 	.stats {
-		height: 610px;
+		height: 310px;
 	}
 	.stats p {
 		padding: 0;
@@ -1561,7 +1561,7 @@ a.mail:hover {
 @media screen and (max-width:966px) {
 	.feature1 {
 		margin-bottom: 0px;
-		width: 50%;
+		width: 33%;
 	}
 	.nosotros {
 		padding-bottom: 50px;
@@ -2114,8 +2114,9 @@ a.mail:hover {
 		padding: 0;
 		margin-top: 15px;
 		line-height: 20px;
-		font-size: 13px;
-		font-weight: 100;
+		font-size: 10px;
+	  font-weight: 100;
+	  text-align: center;
 	}
 	.clients {
 		padding-bottom: 40px;
@@ -2458,7 +2459,7 @@ a.mail:hover {
 		margin-top: 22px;
 	}
 	.stats {
-		height: 530px;
+		height: 210px;
 	}
 	.team {
 		height: 590px;
