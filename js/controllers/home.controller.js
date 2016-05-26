@@ -1,6 +1,6 @@
-﻿define(['app'], function (app) {
-    app.controller('HomeCtrl', function () {
-        
-        
+define(['app'], function (app) {
+    app.controller('HomeCtrl', function ($scope, $timeout) {
+
+    	
     });
 });

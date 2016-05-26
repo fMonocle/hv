@@ -13,47 +13,28 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <!-- <link rel="stylesheet" href="css/animate.css"> -->
+
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/owl.carousel.css" rel="stylesheet">
         <link rel="stylesheet" href="css/swipebox.css">
 
-        <!--Levanto los js que vinieron en el template-->
-        <script src="js/jsTemplate/jquery.min.js"></script>
-        <script src="js/jsTemplate/bootstrap.min.js"></script>
-        <script src="js/jsTemplate/cbpFWTabs.js"></script>
-        <script src="js/jsTemplate/easing.js"></script>
-        <script src="js/jsTemplate/jquery.inview.min.js"></script>
-        <script src="js/jsTemplate/jquery.swipebox.min.js"></script>
-        <script src="js/jsTemplate/main.js"></script>
-        <script src="js/jsTemplate/mousescroll.js"></script>
-        <script src="js/jsTemplate/move-top.js"></script>
-        <script src="js/jsTemplate/numscroller-1.0.js"></script>
-        <script src="js/jsTemplate/owl.carousel.js"></script>
-        <script src="js/jsTemplate/wow.min.js"></script>
-
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-
-        <!--Las libs se llaman modulos. Este modulo es un modules loader.
-            Se usa para cargar modulos a medida que los vas necesitando y tambien
-            para manejar las dependencias de carga-->
+        <script src="node_modules/modernizr.min.js"></script>
         <script src="node_modules/requirejs/require.js" data-main="main.js"></script>
 
+        
 
 
 
-
+        
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Con esta directiva levantamos la aplicacion Angular-->
         <div ng-view></div>
-
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

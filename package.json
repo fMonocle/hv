@@ -1,14 +1,12 @@
 {
-  "name": "hv",
+  "name": "hvtalent",
   "version": "1.0.0",
-  "description": "hv talent website",
-  "main": "index.html",
-  "dependencies": {},
-  "devDependencies": {},
+  "description": "",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Fede",
+  "author": "",
   "license": "ISC"
 }
